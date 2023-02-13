@@ -1,0 +1,8 @@
+micronaut:
+  server:
+    port: 9080
+akhq:
+  connections:
+    9092:
+      properties:
+        bootstrap.servers: "localhost:9092"

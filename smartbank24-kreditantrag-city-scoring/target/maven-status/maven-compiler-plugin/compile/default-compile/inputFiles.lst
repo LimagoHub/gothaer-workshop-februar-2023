@@ -1,0 +1,10 @@
+C:\Users\JoachimWagner\git\gothaer\gothaer-microserviceworkshop-august-2022\smartbank24-kreditantrag-city-scoring\src\main\java\de\gothaer\smartbank24kreditantragcityscoring\adapter\handler\internal\KreditantragHandlerImpl.java
+C:\Users\JoachimWagner\git\gothaer\gothaer-microserviceworkshop-august-2022\smartbank24-kreditantrag-city-scoring\src\main\java\de\gothaer\smartbank24kreditantragcityscoring\adapter\dtos\KreditantragDTO.java
+C:\Users\JoachimWagner\git\gothaer\gothaer-microserviceworkshop-august-2022\smartbank24-kreditantrag-city-scoring\src\main\java\de\gothaer\smartbank24kreditantragcityscoring\adapter\events\ScoringEvent.java
+C:\Users\JoachimWagner\git\gothaer\gothaer-microserviceworkshop-august-2022\smartbank24-kreditantrag-city-scoring\src\main\java\de\gothaer\smartbank24kreditantragcityscoring\adapter\events\BaseEvent.java
+C:\Users\JoachimWagner\git\gothaer\gothaer-microserviceworkshop-august-2022\smartbank24-kreditantrag-city-scoring\src\main\java\de\gothaer\smartbank24kreditantragcityscoring\adapter\eventlistener\EventListener.java
+C:\Users\JoachimWagner\git\gothaer\gothaer-microserviceworkshop-august-2022\smartbank24-kreditantrag-city-scoring\src\main\java\de\gothaer\smartbank24kreditantragcityscoring\adapter\handler\KreditantragHandler.java
+C:\Users\JoachimWagner\git\gothaer\gothaer-microserviceworkshop-august-2022\smartbank24-kreditantrag-city-scoring\src\main\java\de\gothaer\smartbank24kreditantragcityscoring\domain\aggregate\Kreditantrag.java
+C:\Users\JoachimWagner\git\gothaer\gothaer-microserviceworkshop-august-2022\smartbank24-kreditantrag-city-scoring\src\main\java\de\gothaer\smartbank24kreditantragcityscoring\Smartbank24KreditantragCityScoringApplication.java
+C:\Users\JoachimWagner\git\gothaer\gothaer-microserviceworkshop-august-2022\smartbank24-kreditantrag-city-scoring\src\main\java\de\gothaer\smartbank24kreditantragcityscoring\adapter\events\KreditantragEvent.java
+C:\Users\JoachimWagner\git\gothaer\gothaer-microserviceworkshop-august-2022\smartbank24-kreditantrag-city-scoring\src\main\java\de\gothaer\smartbank24kreditantragcityscoring\adapter\mapper\KreditantragDTOMapper.java

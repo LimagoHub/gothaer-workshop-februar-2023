@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/smartbank24-kreditantrag-scoring/pom.xml" />
         <option value="$PROJECT_DIR$/smartbank24-kreditantrag-city-scoring/pom.xml" />
         <option value="$PROJECT_DIR$/smartbank24-kreditantrag-registrierung/pom.xml" />
+        <option value="$PROJECT_DIR$/Events/EmpfaengerProjekt/pom.xml" />
+        <option value="$PROJECT_DIR$/Events/SenderProjekt/pom.xml" />
       </list>
     </option>
   </component>

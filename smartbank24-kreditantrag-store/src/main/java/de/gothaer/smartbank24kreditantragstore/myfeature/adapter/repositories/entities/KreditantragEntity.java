@@ -55,6 +55,7 @@ public class KreditantragEntity {
 
     @Version
     private LocalDateTime version;
+    //private long version;
 
     @Override
     public boolean equals(Object o) {

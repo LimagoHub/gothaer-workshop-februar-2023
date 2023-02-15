@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Consumer" />
         <module name="Producer" />
+        <module name="EmpfaengerProjekt" />
+        <module name="sender" />
       </profile>
       <profile name="Annotation profile for smartbank24-kreditantrag-registrierung" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -22,16 +24,29 @@
         </processorPath>
         <module name="smartbank24-kreditantrag-registrierung" />
         <module name="smartbank24-kreditvertrag-store" />
-        <module name="smartbank24-kreditantrag-store" />
         <module name="dead-letter-queue-example" />
         <module name="smartbank24-kreditantrag-scoring" />
         <module name="smartbank24-kreditantrag-city-scoring" />
+      </profile>
+      <profile name="Annotation profile for smartbank24-kreditantrag-store" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.1.Final/mapstruct-processor-1.4.1.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.1.Final/mapstruct-1.4.1.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="smartbank24-kreditantrag-store" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Consumer" target="11" />
       <module name="dead-letter-queue-example" target="11" />
+      <module name="EmpfaengerProjekt" target="11" />
       <module name="Producer" target="11" />
+      <module name="sender" target="11" />
       <module name="smartbank24-kreditantrag-city-scoring" target="11" />
       <module name="smartbank24-kreditantrag-registrierung" target="11" />
       <module name="smartbank24-kreditantrag-scoring" target="11" />
@@ -41,7 +56,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EmpfaengerProjekt" options="-parameters" />
       <module name="dead-letter-queue-example" options="-parameters" />
+      <module name="sender" options="-parameters" />
       <module name="smartbank24-kreditantrag-city-scoring" options="-parameters" />
       <module name="smartbank24-kreditantrag-registrierung" options="-parameters" />
       <module name="smartbank24-kreditantrag-scoring" options="-parameters" />

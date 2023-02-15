@@ -25,7 +25,7 @@ public class KreditantragHandlerImpl implements KreditantragHandler {
 
         Kreditantrag kreditantrag = mapper.convert(kreditantragEvent.getKreditantrag());
         ScoringEvent scoringEvent = ScoringEvent.builder().creditApplicationId(kreditantrag.getCreditApplicationId()).build();
-        if (kreditantrag.isKreditwuerdig()) {
+        if (kreditantrag.isGenehmigungsfaehig()) {
             bridge.send(CITY_SCORING_POSITIVE, scoringEvent);
         } else {
             bridge.send(CITY_SCORING_NEGATIVE, scoringEvent);

@@ -2,8 +2,6 @@ package de.gothaer.smartbank24kreditantragcityscoring.domain.aggregate;
 
 import lombok.*;
 
-import java.time.LocalDateTime;
-
 @Getter
 @Setter(AccessLevel.PRIVATE)
 @ToString
@@ -16,7 +14,7 @@ public class Kreditantrag {
     private String creditApplicationId ;
     private String city;
 
-    public boolean isKreditwuerdig() {
+    public boolean isGenehmigungsfaehig() {
         return ! ("münchen".equalsIgnoreCase(city) || "muenchen".equalsIgnoreCase(city));
     }
 

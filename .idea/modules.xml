@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/p01-simple/Consumer/Consumer.iml" filepath="$PROJECT_DIR$/p01-simple/Consumer/Consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Events/EmpfaengerProjekt/EmpfaengerProjekt.iml" filepath="$PROJECT_DIR$/Events/EmpfaengerProjekt/EmpfaengerProjekt.iml" />
       <module fileurl="file://$PROJECT_DIR$/p01-simple/Producer/Producer.iml" filepath="$PROJECT_DIR$/p01-simple/Producer/Producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dead-letter-queue-example/dead-letter-queue-example.iml" filepath="$PROJECT_DIR$/dead-letter-queue-example/dead-letter-queue-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/gothaer-workshop-februar-2023.iml" filepath="$PROJECT_DIR$/.idea/gothaer-workshop-februar-2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Events/SenderProjekt/sender.iml" filepath="$PROJECT_DIR$/Events/SenderProjekt/sender.iml" />
       <module fileurl="file://$PROJECT_DIR$/smartbank24-kreditantrag-city-scoring/smartbank24-kreditantrag-city-scoring.iml" filepath="$PROJECT_DIR$/smartbank24-kreditantrag-city-scoring/smartbank24-kreditantrag-city-scoring.iml" />
       <module fileurl="file://$PROJECT_DIR$/smartbank24-kreditantrag-registrierung/smartbank24-kreditantrag-registrierung.iml" filepath="$PROJECT_DIR$/smartbank24-kreditantrag-registrierung/smartbank24-kreditantrag-registrierung.iml" />
       <module fileurl="file://$PROJECT_DIR$/smartbank24-kreditantrag-scoring/smartbank24-kreditantrag-scoring.iml" filepath="$PROJECT_DIR$/smartbank24-kreditantrag-scoring/smartbank24-kreditantrag-scoring.iml" />

@@ -1,0 +1,15 @@
+package de.gothaer.schweineservice.adapter.events;
+
+import de.gothaer.schweineservice.adapter.dto.SchweinDTO;
+import lombok.*;
+import lombok.experimental.SuperBuilder;
+
+
+@Data
+@AllArgsConstructor
+@SuperBuilder
+public class SchweinPersistedEvent extends BaseEvent{
+
+    private final SchweinDTO schweinDTO;
+
+}

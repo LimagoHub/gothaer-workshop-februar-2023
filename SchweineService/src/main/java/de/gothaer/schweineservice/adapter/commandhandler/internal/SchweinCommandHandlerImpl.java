@@ -54,7 +54,7 @@ public class SchweinCommandHandlerImpl implements SchweinCommandHandler {
     public boolean handleSchweinFuettern(String id) {
         try {
             if(service.futtern(id)) {
-                emitter.handleSchweingeloescht(id);
+                emitter.handleSchweingefuettert(id);
                 return true;
             }
             return false;

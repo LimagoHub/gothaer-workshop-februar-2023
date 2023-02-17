@@ -34,16 +34,17 @@ public class SchweineCommandController {
         return ResponseEntity.notFound().build();
     }
 
-    @PostMapping(path="/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Void> update(@Valid @RequestBody SchweinDTO dto, UriComponentsBuilder builder) throws Exception{
+    @PostMapping(path="", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Void> save(@Valid @RequestBody SchweinDTO dto, UriComponentsBuilder builder) throws Exception{
         handler.handleSchweinErfassen(mapper.convert(dto));
         UriComponents component = builder.path("/v1/schweine/{id}").buildAndExpand(dto.getId());
         return ResponseEntity.created(component.toUri()).build();
 
     }
 
-    @PutMapping(path="", consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Void> save(@Valid @RequestBody SchweinDTO dto) throws Exception {
+    @PutMapping(path="/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Void> update(@PathVariable String id,@Valid  @RequestBody SchweinDTO dto) throws Exception {
+
         handler.handleSchweinAendern(mapper.convert(dto));
 
         return ResponseEntity.ok().build();
